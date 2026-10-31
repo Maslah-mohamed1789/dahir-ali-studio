@@ -1,0 +1,161 @@
+
+/* GENERAL STYLING */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #ece1e0;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* NAVIGATION */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 8%;
+    background: #fff;
+}
+
+.logo {
+    font-size: 23px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #222;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #222;
+}
+
+.book-btn,
+.hero-btn {
+    background: #222;
+    color: white;
+    padding: 12px 22px;
+    text-decoration: none;
+}
+
+/* HERO SECTION */
+
+.hero {
+    min-height: 550px;
+    display: flex;
+    align-items: center;
+    padding: 70px 8%;
+    background: #ded7ca;
+}
+
+.hero-content {
+    max-width: 650px;
+}
+
+.subtitle {
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 55px;
+    line-height: 1.15;
+    margin-bottom: 20px;
+}
+
+.hero-description {
+    margin-bottom: 30px;
+}
+
+/* GENERAL SECTIONS */
+
+.about,
+.services,
+.gallery,
+.contact {
+    padding: 80px 8%;
+}
+
+h2 {
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.section-heading {
+    margin-bottom: 20px;
+}
+
+/* SERVICES */
+
+.service-container {
+    display: flex;
+    gap: 20px;
+}
+
+.service-card {
+    flex: 1;
+    padding: 30px;
+    background: white;
+}
+
+/* GALLERY */
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+
+/* CONTACT FORM */
+
+#booking-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 500px;
+}
+
+input,
+textarea {
+    padding: 14px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 14px;
+    background: #222;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* FOOTER */
+
+footer {
+    padding: 25px;
+    text-align: center;
+    background: #222;
+    color: white;
+}
