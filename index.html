@@ -4,17 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta name="description" content="Professional photography studio capturing beautiful moments.">
+    <meta name="theme-color" content="#0f0f0f">
 
     <title>Dahir-Ali-Studio | Photography</title>
+    <meta name="description" content="Professional photography studio capturing beautiful moments: weddings, portraits and events.">
+
+    <!-- Social share preview (WhatsApp, Facebook, etc.).
+         After you publish the site, change og:image to the full web address of the photo. -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Dahir-Ali-Studio | Photography">
+    <meta property="og:description" content="Every picture tells a beautiful story. Book your photography session today.">
+    <meta property="og:image" content="images/wedding2.jpg">
+
+    <!-- Favicon (browser tab icon) -->
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f0f0f'/%3E%3Ctext x='32' y='45' font-size='38' text-anchor='middle' fill='%23c9a24d' font-family='Georgia,serif' font-weight='700'%3ED%3C/text%3E%3C/svg%3E">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
+    <a href="#main" class="skip-link">Skip to content</a>
 
     <!-- HEADER -->
     <header>
@@ -22,9 +36,9 @@
 
             <a href="#home" class="logo">DAHIR-ALI STUDIO.</a>
 
-            <!-- HAMBURGER BUTTON (mobile only, shown/hidden with CSS, toggled with JS) -->
+            <!-- HAMBURGER BUTTON (shows on phones and tablets) -->
             <button class="menu-toggle" id="menu-toggle" type="button"
-                aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-links">
+                aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -45,64 +59,64 @@
 
 
     <!-- MAIN CONTENT -->
-    <main>
+    <main id="main">
 
         <!-- HERO SECTION -->
-      <section id="home" class="hero">
+        <section id="home" class="hero">
 
-    <div class="hero-content">
+            <div class="hero-content">
 
-        <p class="subtitle">WELCOME TO DAHIR-ALI STUDIO</p>
+                <p class="subtitle">WELCOME TO DAHIR-ALI STUDIO</p>
 
-        <h1>Every Picture Tells A Beautiful Story.</h1>
+                <h1>Every Picture Tells A Beautiful Story.</h1>
 
-        <p class="hero-description">
-            We capture life's most beautiful moments
-            and turn them into timeless memories.
-        </p>
+                <p class="hero-description">
+                    We capture life's most beautiful moments
+                    and turn them into timeless memories.
+                </p>
 
-        <a href="#gallery" class="hero-btn">
-            Explore Our Work
-        </a>
+                <a href="#gallery" class="hero-btn">
+                    Explore Our Work
+                </a>
 
-    </div>
+            </div>
 
-    <div class="hero-image">
-        <img src="images/wedding2.jpg" alt="Wedding photography by Dahir-Ali Studio">
-    </div>
+            <div class="hero-image">
+                <img src="images/dahir  home .jpg" alt="Wedding photography by Dahir-Ali Studio">
+            </div>
 
-</section>
+        </section>
 
 
         <!-- ABOUT SECTION -->
-       <section id="about" class="about">
+        <section id="about" class="about">
 
-    <div class="about-container">
+            <div class="about-container">
 
-        <div class="about-image">
-            <img src="images/photographer.jpg"
-                alt="The photographer behind Dahir-Ali Studio holding a camera"
-                width="500" height="600" loading="lazy">
-        </div>
+                <div class="about-image">
+                    <img src="images/Dahir About .jpg"
+                        alt="The photographer behind Dahir-Ali Studio holding a camera"
+                        width="500" height="600" loading="lazy">
+                </div>
 
-        <div class="about-text">
+                <div class="about-text">
 
-            <div class="section-heading">
-                <p>WHO WE ARE</p>
-                <h2>Behind The Camera</h2>
+                    <div class="section-heading">
+                        <p>WHO WE ARE</p>
+                        <h2>Behind The Camera</h2>
+                    </div>
+
+                    <p>
+                        Dahir-Ali-Studio is a creative photography studio
+                        dedicated to capturing emotions, beauty and
+                        unforgettable memories.
+                    </p>
+
+                </div>
+
             </div>
 
-            <p>
-                Dahir-Ali-Studio is a creative photography studio
-                dedicated to capturing emotions, beauty and
-                unforgettable memories.
-            </p>
-
-        </div>
-
-    </div>
-
-</section>
+        </section>
 
 
         <!-- SERVICES SECTION -->
@@ -112,19 +126,20 @@
 
             <div class="service-container">
 
-                 <article class="service-card">
-        <img src="images/wedding.jpg" alt="Wedding photography" width="400" height="300" loading="lazy">
-        <h3>Wedding Photography</h3>
-        <p>Beautiful memories of your special day.</p>
-    </article>
-
-    <article class="service-card">
-        <img src="images/portrait.jpg" alt="Portrait photography" width="400" height="300" loading="lazy">
-        <h3>Portrait Photography</h3>
-        <p>Professional portraits that tell your story.</p>
-    </article>
+                <article class="service-card">
+                    <img src="images/wedding.jpg" alt="Wedding photography" width="400" height="300" loading="lazy">
+                    <h3>Wedding Photography</h3>
+                    <p>Beautiful memories of your special day.</p>
+                </article>
 
                 <article class="service-card">
+                    <img src="images/portrait.jpg" alt="Portrait photography" width="400" height="300" loading="lazy">
+                    <h3>Portrait Photography</h3>
+                    <p>Professional portraits that tell your story.</p>
+                </article>
+
+                <article class="service-card">
+                    <img src="images/Event.jpg" alt="Event photography" width="400" height="300" loading="lazy">
                     <h3>Event Photography</h3>
                     <p>Capturing unforgettable celebrations.</p>
                 </article>
@@ -134,7 +149,7 @@
         </section>
 
 
-        <!-- GALLERY SECTION -->
+        <!-- GALLERY SECTION (click a photo to open the viewer) -->
         <section id="gallery" class="gallery">
 
             <h2>Our Recent Work</h2>
@@ -142,18 +157,24 @@
             <div class="gallery-container">
 
                 <article class="gallery-item">
-                    <img src="images/photo1.jpg" alt="Wedding photography"
-                        width="400" height="300" loading="lazy">
+                    <button type="button" class="gallery-btn" aria-label="View larger photo: Wedding photography">
+                        <img src="images/Service1.jpg" alt="Wedding photography"
+                            width="400" height="300" loading="lazy">
+                    </button>
                 </article>
 
                 <article class="gallery-item">
-                    <img src="images/photo2.jpg" alt="Portrait photography"
-                        width="400" height="300" loading="lazy">
+                    <button type="button" class="gallery-btn" aria-label="View larger photo: Portrait photography">
+                        <img src="images/Service2.jpg" alt="Portrait photography"
+                            width="400" height="300" loading="lazy">
+                    </button>
                 </article>
 
                 <article class="gallery-item">
-                    <img src="images/photo3.jpg" alt="Event photography"
-                        width="400" height="300" loading="lazy">
+                    <button type="button" class="gallery-btn" aria-label="View larger photo: Event photography">
+                        <img src="images/Service3.jpg" alt="Event photography"
+                            width="400" height="300" loading="lazy">
+                    </button>
                 </article>
 
             </div>
@@ -161,28 +182,209 @@
         </section>
 
 
-        <!-- CONTACT SECTION -->
+        <!-- TESTIMONIALS SECTION
+             Replace each [bracketed] text with a REAL review from a real client. -->
+        <section id="reviews" class="testimonials">
+
+            <div class="section-heading">
+                <p>KIND WORDS</p>
+                <h2>What Our Clients Say</h2>
+            </div>
+
+            <div class="testimonial-container">
+
+                <figure class="testimonial">
+                    <blockquote>Professional service, amazing creativity, and excellent photo quality. They made our big day even more special. Highly recommended.</blockquote>
+                    <figcaption>JOHN DOE <span>[Wedding]</span></figcaption>
+                </figure>
+
+                <figure class="testimonial">
+                    <blockquote>The lighting, background, editing, and attention to detail were outstanding. I received high-quality portraits perfect for my professional profile.</blockquote>
+                    <figcaption>JANE SMITH <span>[Portrait]</span></figcaption>
+                </figure>
+
+                <figure class="testimonial">
+                    <blockquote>Our event was captured beautifully. The photographer was punctual, friendly, and professional. We are very happy with the results.</blockquote>
+                    <figcaption>JOHN DOE <span>[Event]</span></figcaption>
+                </figure>
+
+            </div>
+
+        </section>
+
+
+        <!-- FAQ SECTION
+             Replace the [bracketed] parts with your real answers. -->
+        <section id="faq" class="faq">
+
+            <div class="section-heading">
+                <p>GOOD TO KNOW</p>
+                <h2>Frequently Asked Questions</h2>
+            </div>
+
+            <div class="faq-list">
+
+                <details>
+                    <summary>How do I book a session?</summary>
+                    <p>Fill in the form below or message us on WhatsApp with your date, place and the type of session. We will confirm availability and send a quote.</p>
+                </details>
+
+                <details>
+                    <summary>How long until I receive my photos?</summary>
+                    <p>Edited photos are usually delivered within [NUMBER] days of your session.</p>
+                </details>
+
+                <details>
+                    <summary>Do you travel to other cities?</summary>
+                    <p>[Yes, we travel. Travel costs depend on the distance. / Tell us your location and we will let you know.]</p>
+                </details>
+
+                <details>
+                    <summary>How do I pay, and do you need a deposit?</summary>
+                    <p>[Describe your deposit and payment methods here, for example a deposit to secure the date and the balance on the day.]</p>
+                </details>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT SECTION (Split Card) -->
         <section id="contact" class="contact">
 
-            <h2>Book Your Photography Session</h2>
+            <div class="section-heading contact-heading">
+                <p>GET IN TOUCH</p>
+                <h2>Book Your Photography Session</h2>
+                <span class="contact-intro">Tell us about your day and we will reply within 24 hours.</span>
+            </div>
 
-            <form id="booking-form" method="post">
+            <div class="contact-card">
 
-                <label for="name">Your Name</label>
-                <input type="text" id="name" name="name" placeholder="Enter your name" autocomplete="name" required>
+                <!-- LEFT: contact details -->
+                <aside class="contact-info">
 
-                <label for="email">Your Email</label>
-                <input type="email" id="email" name="email" placeholder="Enter your email" autocomplete="email" required>
+                    <h3>Contact details</h3>
+                    <p class="contact-info-intro">Prefer to talk first? Reach us any of these ways.</p>
 
-                <label for="message">Your Message</label>
-                <textarea id="message" name="message" rows="5" placeholder="Tell us about your event" required></textarea>
+                    <ul class="contact-list">
+                        <li>
+                            <span class="contact-label">PHONE / WHATSAPP</span>
+                            <a href="tel:+254000000000">+254 722 533 359</a>
 
-                <button type="submit">Send Message</button>
+                        </li>
+                        <li>
+                            <span class="contact-label">EMAIL</span>
+                            <a href="mailto:hello@yourstudio.com">maslahmohamed92@gmail.com</a>
+                        </li>
+                        <li>
+                            <span class="contact-label">STUDIO</span>
+                            <span>Express Mall,Garissa</span>
+                        </li>
+                        <li>
+                            <span class="contact-label">OPENING HOURS</span>
+                            <span>Mon to Sat, 9:00 to 18:00</span>
+                        </li>
+                    </ul>
 
-                <!-- Success / error message area (filled by JavaScript on Day 6) -->
-                <p id="form-status" role="status" aria-live="polite"></p>
+                    <div class="contact-social">
+                        <!-- data-whatsapp: the link is filled in by script.js from your number -->
+                        <a href="https://wa.me/254000000000" data-whatsapp class="social-btn social-btn-gold"
+                            target="_blank" rel="noopener">Chat on WhatsApp</a>
+                        <a href="https://instagram.com/yourstudio" class="social-btn"
+                            target="_blank" rel="noopener">Instagram</a>
+                    </div>
 
-            </form>
+                </aside>
+
+                <!-- RIGHT: booking form -->
+                <form id="booking-form" class="contact-form" method="post"
+                    action="https://formspree.io/f/xkjjpaqq" novalidate>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Full name *</label>
+                            <input type="text" id="name" name="name" placeholder="Your name"
+                                autocomplete="name" required>
+                            <span class="field-error" id="name-error"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" placeholder="you@example.com"
+                                autocomplete="email" required>
+                            <span class="field-error" id="email-error"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone">Phone / WhatsApp</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+254 ..."
+                                autocomplete="tel">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Session type *</label>
+                            <select id="service" name="service" required>
+                                <option>Wedding Photography</option>
+                                <option>Portrait Photography</option>
+                                <option>Event Photography</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="date">Preferred date</label>
+                            <input type="date" id="date" name="date">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="budget">Budget range</label>
+                            <select id="budget" name="budget">
+                                <option value="">Select a range</option>
+                                <option>Under 20,000</option>
+                                <option>20,000 to 50,000</option>
+                                <option>50,000 and above</option>
+                                <option>Not sure yet</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Tell us about your event *</label>
+                        <textarea id="message" name="message" rows="4" maxlength="500"
+                            placeholder="Venue, number of guests, the style you love..." required></textarea>
+                        <div class="message-meta">
+                            <span class="field-error" id="message-error"></span>
+                            <span class="char-count" id="char-count">0 / 500</span>
+                        </div>
+                    </div>
+
+                    <!-- Spam trap: real people never see or fill this -->
+                    <div class="hp-field" aria-hidden="true">
+                        <label for="website">Leave this field empty</label>
+                        <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
+                    </div>
+
+                    <div class="form-consent">
+                        <input type="checkbox" id="consent" name="consent" required>
+                        <label for="consent">I agree to be contacted about my enquiry. My details are never shared.</label>
+                    </div>
+                    <span class="field-error" id="consent-error"></span>
+
+                    <div class="form-actions">
+                        <button type="submit" class="form-btn" id="submit-btn">Send Message</button>
+                        <span class="form-note">We reply within 24 hours.</span>
+                    </div>
+
+                    <!-- Success / error message area (filled by script.js) -->
+                    <p id="form-status" role="status" aria-live="polite"></p>
+
+                </form>
+
+            </div>
 
         </section>
 
@@ -193,6 +395,36 @@
     <footer>
         <p>&copy; 2026 Dahir-Ali-Studio. All Rights Reserved.</p>
     </footer>
+
+
+    <!-- PHOTO VIEWER (opens when a gallery photo is clicked) -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" hidden>
+        <button type="button" class="lb-btn lb-close" id="lb-close" aria-label="Close photo viewer">
+            <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+        </button>
+        <button type="button" class="lb-btn lb-prev" id="lb-prev" aria-label="Previous photo">
+            <svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg>
+        </button>
+        <figure class="lb-figure">
+            <img id="lb-img" src="" alt="">
+            <figcaption id="lb-caption"></figcaption>
+        </figure>
+        <button type="button" class="lb-btn lb-next" id="lb-next" aria-label="Next photo">
+            <svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></svg>
+        </button>
+    </div>
+
+    <!-- FLOATING WHATSAPP BUTTON: opens a chat with you directly -->
+    <a href="https://wa.me/254000000000" data-whatsapp class="whatsapp-float"
+        target="_blank" rel="noopener" aria-label="Chat with us on WhatsApp">
+        <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.3L3 20.5l1.8-5.4A8.4 8.4 0 1 1 21 11.5z"/></svg>
+        <span>Chat on WhatsApp</span>
+    </a>
+
+    <!-- BACK TO TOP BUTTON (appears after scrolling down) -->
+    <button type="button" class="to-top" id="to-top" aria-label="Back to top" hidden>
+        <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 15l7-7 7 7"/></svg>
+    </button>
 
 
     <script src="script.js"></script>
